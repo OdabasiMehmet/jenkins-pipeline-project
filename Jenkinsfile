@@ -6,6 +6,7 @@ pipeline {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
                 sh 'python pipeline.py'
+                echo 'Finished the build'
             }
         }
     }
